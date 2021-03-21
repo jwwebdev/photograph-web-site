@@ -1,12 +1,32 @@
 /* https://source.unsplash.com/De8wMYoSSBc */
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 
+   
+
 body{
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
     height: auto;
-    background: #fff;
+    background: #eee;
+    text-align: center;    
 }
+
+a{
+    text-decoration: none; 
+           
+}
+
+a:visited{
+    color: inherit;
+}
+
+main{
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 0 0 1em gray;
+    
+}
+
 
 .container{
     display: flex;
@@ -17,8 +37,7 @@ body{
 #mainheader{
 height: 50vh;
 text-align: center;
-margin-top: 
-
+background-color: white;
 }
 
 #mainheader h1{
@@ -34,19 +53,20 @@ margin-top:
         
 }
 
-.btn{
+#btn{
+    color: #333;
     background-color: #fff;    
     border-style: unset;
     border: 1px solid #ccc;
     border-radius: 30px;
     padding: 10px 25px;
     margin-top: 15px;
-    transition: background 500ms ease;    
+    transition: background 500ms ease; 
+       
 }
 
-.btn:hover{
-    background-color: #f4f4f4;         
-    
+#btn:hover{
+    background-color: #f4f4f4;     
 }
 
 .landingimg{
@@ -58,3 +78,91 @@ margin-top:
     background-size: cover;
 
 }
+
+#ourwork{
+    background-color: #333; 
+    padding: 30px 0;  
+    
+}
+
+#ourwork h2{
+    color: white;
+    text-align: center;       
+    border-right: 1px dashed white;  
+    border-left: 1px dashed white;
+    box-sizing: border-box;
+    display: inline;
+    padding: 0px 20px;
+     
+}
+
+#gallery{
+    text-align: center;
+    background-color: white
+    
+}
+
+#gallery .container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    
+        
+}
+
+#gallery img{
+    max-width: 100%;
+}
+
+.imgcaption{
+    justify-content: center;
+    margin: 7px;    
+}
+
+.imgcaption p{
+    margin-bottom: 22px;
+}
+
+#footer{    
+    padding: 40px;
+    margin-top: -50px;
+    margin-bottom: -50px;     
+    
+}
+
+#footer h3{
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+#footer p {
+    color: #333;
+       
+}
+
+#footer span{
+    font-weight: bolder;
+}
+
+@media (min-width: 768px) {
+   #landing {
+       display: flex;
+       flex-direction: row;
+       
+   }
+
+   #mainheader{
+       height: 100vh;
+       width: 400px;
+              
+    }
+
+    #mainheader h1{        
+        margin-top: 40vh;  
+    }
+
+   .landingimg{
+       width: 500px;
+       height: 100vh;
+   }
