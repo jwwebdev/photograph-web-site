@@ -1,1 +1,1 @@
-# After watching traversy media build this web-page a few weeks ago i decided to recreate it. i did it 90% from scracth but had to rely on travesy's javascript snipet because i just started learning it.
+# After watching Traversy media build this web-page on youtube a few weeks ago I decided to recreate it. I did it 90% from scratch but had to rely on Travesy's javaScript snippet because I just started learning it.
