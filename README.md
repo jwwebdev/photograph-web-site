@@ -1,1 +1,1 @@
-# photograph-web-site
+# After watching traversy media build this web-page a few weeks ago i decided to recreate it. i did it 90% from scracth but had to rely on travesy's javascript snipet because i just started learning it.
